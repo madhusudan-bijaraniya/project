@@ -1,0 +1,128 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff8c00;
+}
+
+
+#hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #ff8c00;
+  color: white;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+#hero button {
+   padding: 7px 20px;
+    border-radius: 4px;
+    background-color: white;
+    color: #f0a74e;
+}
+
+#hero button a {
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  #hero button:hover {
+    background-color: #115ac8;
+    
+  }
+
+
+#internships {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#internships h2 {
+  margin-bottom: 30px;
+}
+
+.internship-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.internship-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.internship-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.internship-item p {
+  margin: 10px 0;
+}
+
+.internship-item button {
+  padding: 8px 15px;
+  background-color:#f4f4f4;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.internship-item button:hover {
+  background-color: #ff8c00;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
