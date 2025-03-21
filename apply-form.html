@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now</title>
+    <link rel="stylesheet" href="apply-form-style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="Home.html" target="_self">Home</a></li>
+            <li><a href="About-us.html" target="_self">About Us</a></li>
+            <li><a href="#" target="_self">Internship Opportunities</a></li>
+            <li><a href="Contact.html" target="_self">Contact Us</a></li>
+          </ul>
+          
+        </nav>
+      </header>
+    <div class="application-form">
+        <h2>Apply for Web Developer Internship</h2>
+        <p>Please fill out the form below to apply for the internship position at Asscent Classes</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Cover Letter:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+
+    
+</body>
+</html>
