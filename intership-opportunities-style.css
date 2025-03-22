@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #daddccfd;
+    color: #333;
+  }
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #115ac8;
+  }
+
+.intro {
+    text-align: center;
+    padding: 10px;
+    background-color: #daddccfd;
+    color: black;
+}
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.available-internships {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.internship-item {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.internship-item:hover {
+    transform: translateY(-5px);
+}
+
+.internship-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.duration, .location {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.requirements {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.requirements li {
+    margin-bottom: 0.5rem;
+}
+
+.apply-button{
+    padding: 7px 20px;
+    border-radius: 4px;
+    background-color:#333;
+    color: #f4f4f4;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.apply-button a{
+    color: #f4f4f4;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+    background-color: #2980b9;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+
+@media (min-width: 768px) {
+    .available-internships {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .internship-card {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
